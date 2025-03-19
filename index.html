@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Piedra Papel o Tijeras</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <h1>Vamos a jugar piedra, papel o tijeras</h1>
+    <div id="jugada">
+        <button id="btnPiedra">Piedra</button>
+        <button id="btnPapel">Papel</button>
+        <button id="btnTijeras">Tijeras</button>
+    </div>
+    
+    <div>
+        <h2 id="roundNumber">Round: 1</h2>
+        <h3 id="jugadaHuman">Jugador:</h3>
+        <h3 id="jugadaPc">PC:</h3>
+        <h3 id="resultado">Resultado:</h3>
+        <h3 id="score">Puntaje - Jugador: 0 | PC: 0</h3>
+        <h2 id="finalResult"></h2>
+    </div>
 </body>
 </html>
